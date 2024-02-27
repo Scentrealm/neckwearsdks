@@ -194,11 +194,13 @@ SDK for NeckWears
 	    print(str1)
 
 	 ```    
+	 
 	 Result(More about in Images Folder):
 	 
-	 ![Running at Windows](Images/windows00.png)
+	 [![图片例子](Images/windows00.png "Running at Windows")](https://github.com/Scentrealm/neckwearsdks/tree/main/Images "result")
 	 
-	 
-	 ![Running at Mac](Images/mac1.png)
+ 
+	 [![图片例子](Images/mac1.png "Running at Mac")](https://github.com/Scentrealm/neckwearsdks/tree/main/Images "result")
+	 	 
 	 
 	 
