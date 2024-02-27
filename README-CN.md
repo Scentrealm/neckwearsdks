@@ -193,12 +193,12 @@ SDK for NeckWears
 	 
 	 <img src="https://github.com/Scentrealm/neckwearsdks/tree/main/Images/windows00.png" alt="Running at Windows" style="max-width: 100%;">
 	 
-	 ![Windows下运行](https://github.com/Scentrealm/neckwearsdks/tree/main/Images/windows00.png)
+	 ![Windows下运行](images/windows00.png)
 	 
 	 Mac下运行:
 	 
 	 <img src="https://github.com/Scentrealm/neckwearsdks/tree/main/Images/mac1.png" alt="Running at Mac" style="max-width: 100%;">
 	 
-	 ![Mac下运行](https://github.com/Scentrealm/neckwearsdks/tree/main/Images/mac1.png)
+	 ![Mac下运行](images/mac1.png)
 	 
 	 
