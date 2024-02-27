@@ -189,9 +189,9 @@ SDK for NeckWears
 	 
 	 Result(More about in Images Folder):
 	 
-	 [![图片例子](Images/windows00.png "Running at Windows")](https://github.com/Scentrealm/neckwearsdks/tree/main/Images "result")
+	 [![Running at Windows"](https://github.com/Scentrealm/neckwearsdks/tree/main/Images/windows00.png "Running at Windows")](https://github.com/Scentrealm/neckwearsdks/tree/main/Images "result")
 	 
  
-	 [![图片例子](Images/mac1.png "Running at Mac")](https://github.com/Scentrealm/neckwearsdks/tree/main/Images "result")
+	 [![Running at Mac](https://github.com/Scentrealm/neckwearsdks/tree/main/Images/mac1.png "Running at Mac")](https://github.com/Scentrealm/neckwearsdks/tree/main/Images "result")
 	 
 	 
