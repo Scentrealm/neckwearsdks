@@ -200,13 +200,11 @@ SDK for NeckWears
 	 
 	 Running at Windows:
 	 
-	 <img src="https://github.com/Scentrealm/neckwearsdks/tree/main/Images/windows00.png" alt="Running at Windows" style="max-width: 100%;">
 	 
 	 ![Running at Windows](Images/windows00.png)
 	 
 	 Running at Mac:
 	 
-	 <img src="https://github.com/Scentrealm/neckwearsdks/tree/main/Images/windows00.png" alt="Running at Windows" style="max-width: 100%;">
 	 
 	 ![Running at Mac](Images/mac1.png)
 	 
