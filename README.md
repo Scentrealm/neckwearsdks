@@ -24,7 +24,7 @@ SDK for NeckWears
   4. Example Analysis
   
 
-	    ```    
+	    ```python    
 		#This is a sample Python script.
 	
 		import binascii
