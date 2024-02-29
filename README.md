@@ -7,7 +7,7 @@ SDK for NeckWears
   
   	  open git tools and download demos
   
-	  ```
+	  ```shell
 	  git clone https://github.com/Scentrealm/neckwearsdks.git
 	  ```
 
