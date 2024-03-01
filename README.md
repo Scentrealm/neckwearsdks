@@ -7,7 +7,7 @@ SDK for NeckWears
   
   	  open git tools and download demos
   
-	  ```
+	  ```Shell
 	  git clone https://github.com/Scentrealm/neckwearsdks.git
 	  ```
 
@@ -24,7 +24,7 @@ SDK for NeckWears
   4. Example Analysis
   
 
-	    ```    
+	    ```python    
 		#This is a sample Python script.
 	
 		import binascii
