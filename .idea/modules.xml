@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/neckweartest.iml" filepath="$PROJECT_DIR$/.idea/neckweartest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/neckwearsdks.iml" filepath="$PROJECT_DIR$/.idea/neckwearsdks.iml" />
     </modules>
   </component>
 </project>

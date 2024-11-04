@@ -120,6 +120,7 @@ if __name__ == '__main__':
     # Build Serial Object
     myserial = serial.Serial(port=strPortNum, baudrate=115200, bytesize=serial.EIGHTBITS, parity='N',
                              stopbits=1, rtscts=False, dsrdtr=False, timeout=1, xonxoff=False)
+    time.sleep(3)
     if myserial.is_open:
         print('Opened!')
     else:
@@ -158,17 +159,32 @@ if __name__ == '__main__':
 
     print('------play start-------')
 
-    print('play smell 1：')
-    str2 = 'F5 51 00 13 F5 01 00 01 02 FF FF 01 00 00 00 0B 00 00 27 10 02 45 55 04 3A 55'
-    myserial.write(pack_data(str2))
-    time.sleep(4)
-    print('play smell 2：')
-    str2 = 'F5 51 00 13 F5 01 00 01 02 FF FF 01 00 00 00 05 00 00 27 10 02 3F 55 04 2E 55'
-    # serialworker.send_data(str2)
-    myserial.write(pack_data(str2))
+    # print('play smell 1：')
+    # str2 = 'F5 51 00 13 F5 01 00 01 02 FF FF 01 00 00 00 0B 00 00 27 10 02 45 55 04 3A 55'
+    # myserial.write(pack_data(str2))
+    # time.sleep(4)
+    # print('play smell 2：')
+    # str2 = 'F5 51 00 13 F5 01 00 01 02 FF FF 01 00 00 00 05 00 00 27 10 02 3F 55 04 2E 55'
+    # # serialworker.send_data(str2)
+    # myserial.write(pack_data(str2))
     time.sleep(3)
 
-    # Build playSmell Cmd By Random And Send
+    # for the device: 30011
+    str1 = nw.playSmellForDevice(1, 10, 30011)
+    print(str1)
+    print(str.format('play channel 1 device: {}', 30011))
+    myserial.write(pack_data(str1))
+
+    time.sleep(5)
+
+    # for the device: 30012
+    str1 = nw.playSmellForDevice(1, 10, 30012)
+    print(str1)
+    print(str.format('play channel 1 device: {}', 30012))
+    myserial.write(pack_data(str1))
+
+
+    #Build playSmell Cmd By Random And Send
     for i in range(24):
         scentid = random.randint(1, 12)
         # playsmell by scent id and times(s)
